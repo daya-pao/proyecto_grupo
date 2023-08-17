@@ -9,12 +9,12 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 body{
-   
-    background-image: url("imagenes_G/img_homepages/photo.png");
-    
-    
+   background-image: url("../imagenes_G/img_homepages/Photo.png");
+   background-color: var(--fondo-color);
+
 }
 .header{
     display: flex;
@@ -40,7 +40,16 @@ body{
     width: 310px; 
 }
 .header__consultas img{
-    padding: 16PX;
+    padding: 18px;
+}
+.imagen{
+    position: absolute;
+    
+}
+.circulo{
+    position: relative;
+
+    
 }
 .header__consultas H3{
     padding: 20px 0px;
