@@ -11,8 +11,10 @@
     text-decoration: none;
 }
 body{
-    background-color: var(--fondo-color);
-    opacity: 120%;
+   
+    background-image: url("imagenes_G/img_homepages/photo.png");
+    
+    
 }
 .header{
     display: flex;
