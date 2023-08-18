@@ -1,0 +1,136 @@
+:root{
+    --fondo-color:#1F2732;
+    --blanco-color:#FFFFFF;
+    --gris-boton:#2E3947;
+    --color-letras:#CCAA60;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: var(--fondo-color);
+    opacity: 120%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 15px 0px;
+    width: 80%;
+    height: 95px;
+    border-bottom: 1.3px solid var(--blanco-color);
+}
+.header__logo{
+    height: 100%;
+    width: 124px;
+    display: flex;
+    float: left;
+}
+.header__logo h1{
+   padding: 14px;
+   color: var(--blanco-color);
+}
+.header__consultas{
+    display:flex;
+    width: 310px; 
+}
+.header__consultas img{
+    padding: 16PX;
+}
+.header__consultas H3{
+    padding: 20px 0px;
+    color: var(--blanco-color);
+}
+.consultas__boton{
+    margin-left: 12px;
+    padding: 0px 12px;
+    text-align: center;
+    background-color: var(--gris-boton);
+    border: none;
+}
+.header__menu{
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
+    height: 110px;
+    border-bottom: 1.2px solid var(--blanco-color);
+}
+.telefono{
+    display: flex;
+    flex-direction: column;
+    color:var(--color-letras) ;
+}
+.correo{
+    display: flex;
+    flex-direction: column;
+    color:var(--color-letras) ;
+}
+.menu__navegacion{
+    height: 100%;
+    display: flex;
+}
+.menu__navegacion ul{
+    display: flex;
+    margin: auto;
+    
+}
+.menu__navegacion a{
+    padding: 0px 22px ;
+    color: var(--blanco-color);
+    font-size: 18px;
+}
+.header__menu{
+    display: flex;
+}
+.contactos{
+    width: 420px;
+    height: 100%;
+    display: flex;
+}
+.telefono{
+    display: flex;
+    width: 210px;
+    padding: 45px;
+    height: 100%;
+}
+.correo{
+    display: flex;
+    margin-left: 18px;
+    width: 210px;
+    padding: 45px;
+    height: 100%; 
+}
+.informacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 919px;
+    height: 531px;
+    margin: auto;
+    align-items: center;
+}
+.photo--imagen{
+    width: 27em;
+    height: 29em;
+    padding: 30px;
+}
+.perfil__informacion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 8px; 
+}
+.button--bg{
+    width: 12em;
+    height: 4em;
+    border: 0;
+}
+.perfil__titulo{
+    max-width: 11em;
+}
+.color--white{
+    color: white;
+}
