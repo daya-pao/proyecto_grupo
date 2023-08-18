@@ -5,6 +5,7 @@
     --color-letras: #CCAA60;
 }
 
+
 * {
     margin: 0px;
     padding: 0px;
@@ -29,7 +30,9 @@
     height: 95px;
     border-bottom: 1.3px solid var(--blanco-color);
 }
-
+.flecha{
+    margin-left: -10px;
+}
 .header__logo {
     height: 100%;
     width: 124px;
@@ -133,13 +136,10 @@
     display: flex;
     width: 170px;
     height: 100%;
-   
 }
-
 .telefono h4 {
     color: var(--color-letras);
     padding-top: 35px;
-   
 }
 
 .correo {
@@ -207,4 +207,15 @@
 }
 .text_imag{
     margin-top: 75px;
+}
+.perfil{
+    background-color: var(--fondo-color);
+    height: 550px;
+    display: flex;
+}
+.perfil__imagenes{
+    margin: auto;
+    width: 70%;
+    height: 340px;
+    background-color: #FFFFFF;
 }
