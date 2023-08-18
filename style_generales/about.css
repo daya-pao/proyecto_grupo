@@ -112,16 +112,26 @@ body{
     margin: auto;
     align-items: center;
 }
+.imagen_perfil{
+    border: 1px solid gray;
+    width: 20em;
+    height: 24em;
+    margin-top: -40px;
+}
 .photo--imagen{
-    width: 27em;
+    width: 23em;
     height: 29em;
-    padding: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 .perfil__informacion{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     padding: 0 8px; 
+    padding-top: 70px;
+    padding-right: 30px;
 }
 .button--bg{
     width: 12em;
@@ -130,7 +140,38 @@ body{
 }
 .perfil__titulo{
     max-width: 11em;
+    font-size: 40px;
 }
 .color--white{
     color: white;
 }
+.informacion__story{
+    width: 90%;
+    margin: auto;
+    height: 30em;
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+.imagenes{
+    width: 20em;
+}
+.story--tex{
+    text-align: center;
+    max-width: 436px;
+}
+.story__imagen{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 31px;
+    padding-top: 40px;
+}
+.modificar--tamaño{
+    height: 13em;
+}
+
+
