@@ -48,7 +48,7 @@
 }
 
 .header__consultas img {
-    padding: 18px;
+    padding: 15px;
 }
 
 .imagen {
@@ -73,6 +73,7 @@
     text-align: center;
     background-color: var(--gris-boton);
     border: none;
+    color: var(--blanco-color);
 }
 
 .header__menu {
@@ -109,61 +110,101 @@
     width: 420px;
     height: 100%;
     display: flex;
+    
+}
+.contactos__circu{
+    width: 50px;
+    margin: auto;
+    height: 55px;
+    
+    
+}
+.Cir{
+    position:absolute;
+}
+.tele{
+   padding: 22px;
+}
+.contactos h5{
+    color: var(--blanco-color);
 }
 
 .telefono {
     display: flex;
-    width: 210px;
-    padding: 45px;
+    width: 170px;
     height: 100%;
+   
 }
 
 .telefono h4 {
     color: var(--color-letras);
+    padding-top: 35px;
+   
 }
 
 .correo {
     display: flex;
     margin-left: 18px;
-    width: 210px;
-    padding: 45px;
+    width: 170px;
     height: 100%;
+}
+.correo__circu{
+    width: 50px;
+    margin: auto;
+    height: 55px;
+}
+.Circu{
+    position:absolute;
+}
+.email{
+   padding: 22px;
 }
 
 .correo h4 {
     color: var(--color-letras);
+    padding-top: 34px;
+    margin-left: 18px;
+    
+}
+.correo h5{
+    margin-left: 18px;
+    color: var(--blanco-color);
 }
 .textos{
-    height: 350px;
     display: flex;
     width: 80%;
     margin: auto;
-
+    height: 550px;
 }
 .textos__text{
-    width: 50%;
+    width: 30%;
 }
 .textos__imagen{
-   background-image: url("im");
-    width: 50%;
-   
+   position: relative;
+    width: 70%;
 }
-.text_imag{
-    margin: 18px 0px;
-}
+
 .text__titulo{
-    font-size: 22px;
+    font-size: 38px;
     color: var(--blanco-color);
     margin-bottom: 8px;
 }
 .text__parrafo{
-    font-size: 16px;
+    font-size: 17px;
+    font: Outfit;
     gap: 3px;
     color: var(--color-letras);
 }
+.imagen_perfil{
+    width: 100%;
+    height: 100%;
+}
 .text__botonget{
-    margin-top: 12px;
+    margin-top: 22px;
     border: none;
     padding: 14px 35px;
     background-color: var(--color-letras);
+}
+.text_imag{
+    margin-top: 75px;
 }
