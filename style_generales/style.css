@@ -18,8 +18,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--fondo-color);
-    height: 690px;
-
 }
 
 .header {
@@ -143,12 +141,29 @@
 
 }
 .textos__text{
-    height: 440px;
-    background-color: #FFFFFF;
     width: 50%;
 }
 .textos__imagen{
-    height: 450px;
+   background-image: url("im");
     width: 50%;
    
+}
+.text_imag{
+    margin: 18px 0px;
+}
+.text__titulo{
+    font-size: 22px;
+    color: var(--blanco-color);
+    margin-bottom: 8px;
+}
+.text__parrafo{
+    font-size: 16px;
+    gap: 3px;
+    color: var(--color-letras);
+}
+.text__botonget{
+    margin-top: 12px;
+    border: none;
+    padding: 14px 35px;
+    background-color: var(--color-letras);
 }
