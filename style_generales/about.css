@@ -149,6 +149,7 @@ body{
     width: 90%;
     margin: auto;
     height: 30em;
+    padding-top: 5%;
 }
 .story{
     display: flex;
@@ -170,8 +171,12 @@ body{
     gap: 31px;
     padding-top: 40px;
 }
-.modificar--tamaño{
-    height: 13em;
+.informacion__experiance{
+    border: 1px solid red;
+    margin-top: 6%;
+}
+.img_experience,.negocio{
+  
 }
 
 
