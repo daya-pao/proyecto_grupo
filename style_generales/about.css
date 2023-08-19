@@ -172,7 +172,6 @@ body{
     padding-top: 40px;
 }
 .informacion__experiance{
-    border: 1px solid red;
     margin-top: 6%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -212,8 +211,156 @@ body{
 .left{
     padding-left: 29px;
 }
-h5{
+.titulo{
     font-size: 14px;
 }
+.informacion_values{
+    display: flex;
+    align-items: flex-start;
+    gap: 90px;
+    margin: auto;
+    width: 61em;
+    padding-top: 6%;
+}
+.texto_value{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.line_icon{
+    width: 95px;
+    height: 44px;
+}
+.value_info{
+    font-family: Outfit;
+}
+.tablas__value{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+}
+.fondo_informacion{
+    display: flex;
+    padding:17px 16px 25px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #2E3642;
+}
+.informacion_team{
+    width: 85em;
+    height: 116vh;
+    background: #ffffff;
+}
+.team_galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    height: 90vh;
+    padding-top: 4%;
+}
+.team--titulo{
+    color: #161D27;
+    text-align: center;
+}
+.team_photo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.team--tamaño{
+    width: 260px;
+    height: 355px;
+}
+.contactos_team{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 13em;
+    height: 7em;
+    padding: 21px 48px;
+    margin-top: -41px;
+    margin-left: 25px;
+    background-color: #ffffff;
+    position: absolute;
+    gap: 8px;
+}
+.red-social{
+    display: flex;
+    gap: 10px;
+    margin-top: -2px;
+}
+.line{
+    width: 5em;
+    height: 1px;
+    background: #D1B06B;
+}
+.color--dorado{
+    color: #CCAA60;
+}
+.tamaño{
+    font-size: 1em;
+}
+.btn_border{
+    margin-top: 6em;
+    border: 1px solid black;
+    background: #FFFFFF;
+}
+.informacion_testimonio{
+    margin-top: 17%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+   
+    height: 91vh;
+}
+.icon-line{
+    padding-left: 30%;
+    padding-top: 20%
+}
+.testimonial{
+    display: flex;
+    margin-top: 2%;
+}
 
-
+.personajes{
+    height: 12em;
+    padding: 20px 20px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #2E3947;
+    margin-left: 12px;
+}
+.nombre_photo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.imagen--borde{
+    border-radius: 40px;
+    margin-top: 4%;
+    width: 50px;
+}
+.personajes-border{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 12em;
+    padding: 20px 20px;
+    background: #2E3947;
+    border-top-left-radius: 30px;
+    gap: 10px;
+    margin-top: 6%;
+    margin-left: 12px;
+}
+.imagen-borde{
+    border-radius: 40px;
+    margin-top: -10%;
+    width: 50px;
+}
