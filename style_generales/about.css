@@ -174,9 +174,46 @@ body{
 .informacion__experiance{
     border: 1px solid red;
     margin-top: 6%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .img_experience,.negocio{
-  
+    height: 35em;
+    width: 42em;
+}
+.texto_experience{
+    background-color: #CCAA60;
+    display: flex;
+    padding: 31px 33px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+.text--titulo{
+    color: #1F2732;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+}
+.text--info{
+    color: #1F2732;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.range{
+    width: 35em;
+    height: 4px;
+}
+.porcentajes{
+    display: flex;
+    width: 511px;
+    gap: 256px;
+    padding-top: 20px;
+}
+.left{
+    padding-left: 29px;
+}
+h5{
+    font-size: 14px;
 }
 
 
