@@ -259,8 +259,32 @@ footer{
 }
 .section_servicios-Quic ,.section_servicios-Utility,.section_servicios-Practice,.section_servicios-Conatct{
     width: 35%;
-    height: 10em;
-    display:flex ;
-    grid-template-columns: 1fr , 1fr;
-    border: 2px solid darkgrey;
+    height: 21em;
+    line-height: 2em;
+}
+.contenedor_Quic-botones{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor_Quic-botones-botones2{
+margin-right: 19%;
+}
+.Conatct-botones{
+ margin-bottom: 8%;
+}
+.golden{
+   color: var(--color-letras);
+}
+.img_footer{
+    width: 99%;
+}
+.h{
+    padding: 1%;
+}
+.final_footer{
+    width: 99%;
+    height: 15%;
+    padding:1%;
+    display: flex;
+    justify-content: space-between;
 }
