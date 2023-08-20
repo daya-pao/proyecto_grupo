@@ -260,7 +260,7 @@ footer{
 .section_servicios-Quic ,.section_servicios-Utility,.section_servicios-Practice,.section_servicios-Conatct{
     width: 35%;
     height: 10em;
-    display: flex;
+    display:flex ;
     grid-template-columns: 1fr , 1fr;
     border: 2px solid darkgrey;
 }
