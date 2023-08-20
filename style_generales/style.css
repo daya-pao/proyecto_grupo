@@ -261,7 +261,6 @@ footer{
 .section_servicios-Quic{
     width: 35%;
     height: 10em;
-    display: ;
     grid-template-columns: 1fr , 1fr;
     border: 2px solid darkgrey;
 }
