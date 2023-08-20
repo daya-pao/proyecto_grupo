@@ -211,15 +211,13 @@
     color: #FFFFFF;
 }
 .informacion_practicesAreas{
-    border: 1px solid red;
     width: 100%;
-    height: 111vh;
+    height: 135vh;
     background:#1F2732 ;
 }
 .practices{
-    border: 1px solid green;
     display: flex;
-    width: 80%;
+    width: 77%;
     align-items: center;
     gap: 147px;
     margin: auto;
@@ -231,25 +229,225 @@
     background: #161D27;
 }
 .practices__areas{
-    border: 1px solid yellow;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2%;
     width: 80%;
     margin: auto;
-    height: 80vh;
+    height: 90vh;
+    padding-top: 7%;
     
 }
 .Areas_cajas{
-    border: 1px solid red;
-    width: 98%;
+    width: 88%;
     height: 97%;
     margin: auto;
     padding: 34px 14px 34px 14px;
-
+    background: #2E3947;
+    display: flex;
+    flex-direction: column;
 }
 .line-color{
-    width: 161px;
-   height: 1px;
-   background: #CCAA60;
+    width: 90%;
+    height: 1px;
+    background: #CCAA60;
+    margin: auto;
+}
+.icon__btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button{
+    height: 30px;
+    width: 100px;
+    background:#161D27;
+    border: none;
+    color: white;
+}
+.btn--color{
+    background-color: #CCAA60;
+}
+.informacion__conctac{
+    height: 80vh;
+    background-color: #2E3947;
+    width: 100%;
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+.conctac{
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    gap: 11%;
+    width:33%;
+}
+.informacion_consulta{
+    border:  1px solid black;
+    background: #FFFFFF;
+    width: 40%;
+    height: 82%;
+}
+.caja--border{
+    border: 10px solid #DFDFDF;;
+    width: 90%;
+    height: 84%;
+    margin: auto;
+    margin-top: 30px;
+}
+.centrado{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    padding-top: 38px;
+    width: 95%;
+    margin: auto;
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+.espacio{
+    padding-left: 20px;
+}
+.tex-color{
+    color: #909090;
+}
+.btn--bg{
+    width: 44%;
+    height: 20%;
+    background: #CCAA60;
+    color: #161D27;
+    border: none;
+    font-size: 20px;
+}
+.formulario_conctac{
+    background-image: url("../imgpantalla2/Photo_fonfo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+} 
+.formulario{
+    border: 1px solid #161D27;
+    width: 100%;
+    height: 100vh;
+}
+.conctac_from{
+    width: 70%;
+    height: 68vh;
+    margin: auto;
+    margin-top: 8%;
+    background: #2E3947;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.datos,.datos_from {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 72px;
+}
+.btn-while{
+    height: 80%;
+    width: 40%;
+    margin-left: 73%;
+    margin-top: -42px;
+}
+.linea{
+    width: 300px;
+    height: 1px;
+    background: #909090;
+    margin-top: 31px;
+}
+.informacion_clientes{
+    width: 100%;
+    height: 463px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+}
+.clientes{
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+.titulo_cliente{
+    font-size: 40px;
+}
+.clientes_titulo{
+    display: flex;
+    padding-top: 5%;
+    gap: 13px;
+}
+footer{
+    background-color: var(--fondo-color);
+    max-width:86em;
+    min-height: 30em;
+    text-align: center;
+}
+.section_logo{
+    padding: 15px;
+    max-width: 10%;
+    display: flex;
+}
+.footer_logo{
+    width: 95px;
+    height: 55px;
+    margin: 19px;
+    margin-left: -1em;
+}
+.icon-footer_derecho{
+  width: 19em;
+  margin: 28px;
+  margin-left: 10em;
+}
+.icon-footer_izquierdo{
+    width: 19em;
+    margin: 28px;
+    margin-left: 2em;
+}
+.titulo_footer{
+    font-size: 50px;
+    margin: 0px -29px;
+}
+.section_servicios{
+    padding: 2%;
+    color: var(--blanco-color);
+    display: flex;
+    text-align: left;
+}
+.section_servicios-Quic ,.section_servicios-Utility,.section_servicios-Practice,.section_servicios-Conatct{
+    width: 35%;
+    height: 21em;
+    line-height: 2em;
+}
+.contenedor_Quic-botones{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor_Quic-botones-botones2{
+margin-right: 19%;
+}
+.Conatct-botones{
+ margin-bottom: 8%;
+}
+.golden{
+   color: var(--color-letras);
+}
+.img_footer{
+    width: 99%;
+}
+.h{
+    padding: 1%;
+}
+.final_footer{
+    width: 99%;
+    height: 15%;
+    padding:1%;
+    display: flex;
+    justify-content: space-between;
 }
