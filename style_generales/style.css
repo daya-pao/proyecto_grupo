@@ -60,8 +60,6 @@
 
 .circulo {
     position: relative;
-
-
 }
 
 .header__consultas H3 {
@@ -118,8 +116,6 @@
     width: 50px;
     margin: auto;
     height: 55px;
-    
-    
 }
 .Cir{
     position:absolute;
@@ -130,7 +126,6 @@
 .contactos h5{
     color: var(--blanco-color);
 }
-
 .telefono {
     display: flex;
     width: 170px;
