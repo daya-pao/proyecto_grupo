@@ -11,6 +11,9 @@
     text-decoration: none;
     list-style: none;
 }
+body{
+    background-color: var(--fondo-color);
+}
 .encabezado{
     background-image: url("../imgpantalla2/Photo.png");
     background-repeat: no-repeat;
@@ -351,7 +354,7 @@
     margin: 72px;
 }
 .btn-while{
-    height: 80%;
+    height: 43%;
     width: 40%;
     margin-left: 73%;
     margin-top: -42px;
@@ -386,8 +389,9 @@
 footer{
     background-color: var(--fondo-color);
     max-width:86em;
-    min-height: 30em;
+    min-height:30em;
     text-align: center;
+    margin: auto;
 }
 .section_logo{
     padding: 15px;

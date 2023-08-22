@@ -11,6 +11,9 @@
     text-decoration: none;
     list-style: none;
 }
+body{
+    background-color: var(--fondo-color);
+}
 .encabezado{
     background-image: url("../imgpantalla2/Photo.png");
     background-repeat: no-repeat;
@@ -299,6 +302,7 @@ footer{
     max-width:86em;
     min-height: 30em;
     text-align: center;
+    margin: auto;
 }
 .section_logo{
     padding: 15px;
