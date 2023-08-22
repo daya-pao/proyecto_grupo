@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Luxurious+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
 :root {
     --fondo-color: #1F2732;
     --blanco-color: #FFFFFF;
     --gris-boton: #2E3947;
     --color-letras: #CCAA60;
+    --color-perfil:#161D27;
+    --color-tarjetas:#161D27;
+    
 }
-
-
+  
 * {
     margin: 0px;
     padding: 0px;
@@ -48,20 +53,14 @@
     display: flex;
     width: 310px;
 }
-
 .header__consultas img {
     padding: 15px;
 }
-
 .imagen {
     position: absolute;
-
 }
-
 .circulo {
     position: relative;
-
-
 }
 
 .header__consultas H3 {
@@ -85,41 +84,31 @@
     height: 110px;
     border-bottom: 1.2px solid var(--blanco-color);
 }
-
 .menu__navegacion {
     height: 100%;
     display: flex;
 }
-
 .menu__navegacion ul {
     display: flex;
     margin: auto;
-
 }
-
 .menu_link {
     padding: 0px 22px;
     color: var(--blanco-color);
     font-size: clamp(18px, 1vw, 3rem);
 }
-
-
 .header__menu {
     display: flex;
 }
-
 .contactos {
     width: 420px;
     height: 100%;
     display: flex;
-    
 }
 .contactos__circu{
     width: 50px;
     margin: auto;
     height: 55px;
-    
-    
 }
 .Cir{
     position:absolute;
@@ -140,7 +129,6 @@
     color: var(--color-letras);
     padding-top: 35px;
 }
-
 .correo {
     display: flex;
     margin-left: 18px;
@@ -171,32 +159,39 @@
 }
 .textos{
     display: flex;
-    width: 80%;
+    width: 75%;
     margin: auto;
     height: 550px;
 }
 .textos__text{
-    width: 30%;
+    width: 35%;
 }
 .textos__imagen{
-   position: relative;
-    width: 70%;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
 }
-
 .text__titulo{
-    font-size: 38px;
+    font-size: clamp(38px, 1vw, 3rem);
     color: var(--blanco-color);
     margin-bottom: 8px;
 }
 .text__parrafo{
-    font-size: 17px;
-    font: Outfit;
+    font-family: Outfit;
+    font-size: clamp(22px, 1vw, 3rem);
+    font-style: normal;
+    font-weight: 400;
     gap: 3px;
     color: var(--color-letras);
 }
-.imagen_perfil{
-    width: 100%;
+.imgen_primer{
+    width: 90%;
     height: 100%;
+}
+.imagen_perfil{
+ max-width: 130%;
+ min-width: 100%;
+ height: 100%;
 }
 .text__botonget{
     margin-top: 22px;
@@ -209,14 +204,265 @@
 }
 .perfil{
     background-color: var(--fondo-color);
-    height: 550px;
     display: flex;
+    
 }
 .perfil__imagenes{
     margin: auto;
-    width: 70%;
-    height: 340px;
-    background-color: #FFFFFF;
+    margin-top: 145px;
+    width: 80%;
+    margin-bottom: 145px;
+    display: flex;
+
+}
+.imagenes_im{
+    width: 800px;
+    height: 100%;
+}
+.imagenes_textos{
+    padding-left: 32px;
+    width: 90%;
+    height: 100%;
+}
+.imagenes_textos img{
+    width: 75px;
+}
+.im__uno{
+    width: 100%;
+    height: 275px;
+    margin-bottom: 12px;
+}
+.im__dos{
+    height: 100%;
+    height: 275px;
+}
+.ima{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.textos_p{
+    height: 85px;
+    display: flex;
+    width: 455px;
+    
+}
+.textos_p h6{
+    color: var(--blanco-color);
+    font-family: Luxurious Script;
+    font-size: 43px;
+    font-style: normal;
+    padding: 32px 18px;
+    font-weight: 400;
+
+}
+.imagen_per{
+    margin-top: 6px;
+    width: 115px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: var(--color-perfil);
+    text-align: center;
+    object-fit: cover;
+    overflow: hidden;
+}
+.nose{
+   
+    width: 120px;
+    height: 110px;
+}
+.textos__simple{
+    padding-top: 15px;
+    color: var(--blanco-color);
+    font-family:' Cormorant Garamond';
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.textos__buttons{
+    display: flex;
+    margin-top: 65px;
+    height: 150px;
+    width: 655px;
+   
+    
+}
+.textos__parra{
+    padding-top: 32px;
+    padding-bottom: 25px;
+    color: var(--blanco-color);
+    font-family: Outfit;
+    font-size: clamp(20px, 1vw, 3rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.carta{
+    display: flex;
+    margin: 20px 10px;
+    width: 300px;
+    height: 115.385px;
+    padding: 26px 45px;
+    background-color:#3B434E;
+}
+.carta__imagen{
+    width: 40px;
+    height: 65px;
+}
+.carta-ima{
+    width:  58.66px;
+    height: 100%;
+}
+.case{
+    padding-top: 2px;
+    font-family: Outfit;
+    font-size: 22px;
+    margin-left: 45px;
+    color: var(--blanco-color);
+    font-style: normal;
+    font-weight: 500;
+    
+}
+.experience{
+    display: flex;
+    margin: 20px 10px;
+    width: 300px;
+    height: 115.385px;
+    padding: 26px 45px;
+    background-color: var(--color-letras);
+   
+}
+.experience h3{
+    font-family: Outfit;
+    margin: 10px 12px;
+    font-size: 22px;
+    color: var(--fondo-color);
+}
+.experience__t-treinta{
+    margin: auto;
+    width: 81px;
+    background-color: var(--fondo-color);
+  
+    border-radius: 6px;
+    height: 70px;
+}
+.experience__t-treinta h2{
+    color: var(--blanco-color);
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    margin: 18px;
+
+}
+.tarjetas{
+     background-color: var(--color-tarjetas);
+     display: flex;
+     padding-top: 22px;
+}
+.explore{
+    margin: auto;
+    width: 75%;
+   
+}
+.explore__titulo{
+    display: flex;
+    justify-content: space-between;
+    height: 135px;
+    padding: 12px;
+   
+}
+.practice{
+    width: 285px;
+    background-color: #16271b;
+    height: 100%;
+}
+.pasagees{
+    padding: 22px;
+    width: 485px;
+    border-left: 1.3px solid rgb(240, 236, 230);
+    height: 100%;
+   
+}
+.explore__cuerpo{
+    display: grid;
+    width: 100%;
+    gap: 5px ; 
+    grid-template:" tarjeta__uno tarjeta__dos   tarjeta__tres" 
+                    " tarjeta__cuatro tarjeta__cinco  tarjeta__seis";
+    
+}
+.tarjeta__uno{
+    grid-area: tarjeta__uno;
+    height: 245px;
+    background-color:var(--fondo-color);
+    width: 97%;
+    padding: 26px;
+}
+.tarjetas__imagenes{
+    height: 55px;
+    display: flex;
+    border-top: 1.4px solid #3A4553;
+}
+    
+.explore__cuerpo p{
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    color:  #D7D7D7;
+    font-weight: 400;
+    line-height: 140%;
+    padding: 22px 0px;
+}
+.explore__cuerpo h3{
+    color: var(--blanco-color);
+    font-family: Cormorant Garamond;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 114.6%; 
+}
+
+
+
+.tarjeta__dos{
+    grid-area: tarjeta__dos;
+    height: 245px;
+    background-color:var(--fondo-color);
+    width: 97%;
+    padding: 22px;
+}
+.tarjeta__tres{
+    grid-area: tarjeta__tres;
+    height: 245px;
+    background-color:var(--fondo-color);
+    width: 97%;
+    padding: 22px;
+}
+.tarjeta__cuatro{
+    grid-area: tarjeta__cuatro;
+    height: 245px;
+    background-color:var(--fondo-color);
+    width: 97%;
+    padding: 22px;
+}
+.tarjeta__cinco{
+    grid-area: tarjeta__cinco;
+    height: 245px;
+    background-color:var(--fondo-color);
+    width: 97%;
+    padding: 22px;
+}
+.tarjeta__seis{
+    grid-area: tarjeta__seis;
+    height: 245px;
+    background-color:var(--fondo-color);
+    width: 97%;
+    padding: 22px;
 }
 
 /*aqui comienza el pie de pagina*/
