@@ -417,6 +417,12 @@
     line-height: 140%;
     padding: 22px 0px;
 }
+.explore__Explo{
+    color: var(--blanco-color);
+}
+.pasagees__pa{
+    color: var(--blanco-color);
+}
 .explore__cuerpo h3{
     color: var(--blanco-color);
     font-family: Cormorant Garamond;
@@ -425,7 +431,6 @@
     font-weight: 600;
     line-height: 114.6%; 
 }
-
 
 
 .tarjeta__dos{
