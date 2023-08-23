@@ -8,8 +8,6 @@
     --color-letras: #CCAA60;
     --color-perfil:#161D27;
     --color-tarjetas:#161D27;
-    
-    
 }
   
 * {
@@ -502,18 +500,29 @@
 }
 .rectangle{
     position: absolute;
-   
+    margin:auto ;
 }
 .rip{
-    margin: 12px 5px;
+    font-size: 14px;
     color: var(--color-letras);
 }
-.linea{
+.debajo{
+    display: block;
     position: relative;
-    margin-bottom: 22px;
-    
+    margin-top: 22px;
+   
     
 }
+.linea{
+    
+    margin-bottom: 22px;
+    position: absolute;
+}
+.lineavein{
+   position: relative;
+   
+}
+
 
 
 /*aqui comienza el pie de pagina*/
