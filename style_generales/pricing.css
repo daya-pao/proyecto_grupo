@@ -12,7 +12,7 @@
     list-style: none;
 }
 body{
-    background-color: var(--fondo-color);
+    background-color: var(--gris-boton);
 }
 .encabezado{
     background-image: url("../imgpantalla2/Photo.png");
@@ -219,7 +219,7 @@ body{
 }
 .offer__banner{
     border: 1px solid red;
-    width: 81%;
+    width: 74%;
     height: 57vh;
     margin-top: 6%;
     background: #CCAA60;
@@ -245,4 +245,69 @@ body{
 }
 .color--blue{
     color:#1F2732;
+}
+.plan__for{
+    border: 1px solid yellow;
+    height: 95vh;
+    margin-top: 5%;
+}
+.plan__titulo{
+    text-align: center;
+}
+.planes{
+    border: 1px solid green;
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    gap: 43px;
+    margin: auto;
+    margin-top: 4%;
+}
+.plan{
+    border: 1px solid rebeccapurple;
+    height: 68vh;
+    width: 37%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    background: var(--fondo-color);
+    padding-top: 12px;
+
+}
+.color--orange{
+    color: #CCAA60;
+}
+.lineas{
+    width: 100%;
+    height: 1px;
+    background: #2E3947;
+}
+.line-largo{
+    width: 80%;
+    height: 1px;
+}
+.btn--color{
+    background: #2E3947;
+    width: 30%;
+    height: 30px;
+    border: none;
+    color: white;
+}
+.btn--bg{
+    width: 82%;
+    height: 60px;
+    border: 2px solid #CCAA60;
+    font-size: 16px;
+}
+.btn--bg:hover{
+    background: #CCAA60;
+    color: #1F2732;
+}
+.btn{
+    margin-top: 3%;
+}
+.btnn{
+    margin-top: 6%;
 }
