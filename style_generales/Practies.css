@@ -268,8 +268,9 @@ body{
     border: none;
     color: white;
 }
-.btn--color{
+.button:hover{
     background-color: #CCAA60;
+    color: #1F2732;
 }
 .informacion__conctac{
     height: 80vh;
@@ -321,10 +322,14 @@ body{
 .btn--bg{
     width: 44%;
     height: 20%;
-    background: #CCAA60;
-    color: #161D27;
+    background: #161D27;
+    color:white;
     border: none;
     font-size: 20px;
+}
+.btn--bg:hover{
+    background: #CCAA60;
+    color: #1F2732;
 }
 .formulario_conctac{
     background-image: url("../imgpantalla2/Photo_fonfo2.jpg");
@@ -334,9 +339,9 @@ body{
     height: 100vh;
 } 
 .formulario{
-    border: 1px solid #161D27;
     width: 100%;
     height: 100vh;
+    position: absolute;
 }
 .conctac_from{
     width: 70%;
@@ -344,26 +349,42 @@ body{
     margin: auto;
     margin-top: 8%;
     background: #2E3947;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-.datos,.datos_from {
+    padding: 60px 60px 60px 60px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin: 72px;
+    gap: 30px;
+}
+.datos__full{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.datos__phone{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 3%;
 }
 .btn-while{
-    height: 43%;
-    width: 40%;
-    margin-left: 73%;
-    margin-top: -42px;
+    height: 20%;
+    width: 25%;
+    margin: auto;
+    background: #161D27;
+    border: none;
+    font-size: 16px;
+}
+.btn-while:hover{
+    background:white;
 }
 .linea{
-    width: 300px;
+    width: 370px;
     height: 1px;
     background: #909090;
     margin-top: 31px;
+}
+.largo{
+    width: 500px;
+    height: 1px;
 }
 .informacion_clientes{
     width: 100%;

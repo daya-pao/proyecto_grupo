@@ -171,6 +171,11 @@ body{
     width: 12em;
     height: 4em;
     border: 0;
+    background: #161D27;
+    font-size: 16px;
+}
+.button--bg:hover{
+    background: white;
 }
 .perfil__titulo{
     max-width: 11em;
@@ -210,10 +215,10 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-/* .img_experience,.negocio{
+.img_experience,.negocio{
     height: 35em;
     width: 39em;
-} */
+}
 .texto_experience{
     background-color: #CCAA60;
     display: flex;
@@ -297,7 +302,7 @@ body{
 }
 .informacion_team{
     width: 100%;
-    height: 87vh;
+    height: 140vh;
     background: #ffffff;
     margin-top: 5%;
 }
@@ -306,7 +311,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    height: 90vh;
+    height: 200vh;
     padding-top: 4%;
 }
 .team--titulo{
@@ -355,7 +360,10 @@ body{
 .btn_border{
     margin-top: 6em;
     border: 1px solid black;
-    background: #FFFFFF;
+    background: white;
+}
+.btn_border:hover{
+    background: #1F2732;
 }
 .informacion_testimonio{
     margin-top: 13%;
@@ -364,7 +372,7 @@ body{
     flex-direction: column;
     gap: 60px;
     width: 100%;
-    height: 78vh;
+    height: 90vh;
 }
 .icon-line{
     padding-left: 30%;
