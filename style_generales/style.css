@@ -9,6 +9,7 @@
     --color-perfil:#161D27;
     --color-tarjetas:#161D27;
     
+    
 }
   
 * {
@@ -360,30 +361,31 @@
 .tarjetas{
      background-color: var(--color-tarjetas);
      display: flex;
-     padding-top: 22px;
+     padding: 185px 20px;
 }
 .explore{
     margin: auto;
     width: 75%;
+    margin-top: 35px;
    
 }
 .explore__titulo{
     display: flex;
     justify-content: space-between;
-    height: 135px;
+    height: 210px;
     padding: 12px;
    
 }
 .practice{
-    width: 285px;
-    background-color: #16271b;
+    width: 30%;
     height: 100%;
 }
 .pasagees{
-    padding: 22px;
-    width: 485px;
-    border-left: 1.3px solid rgb(240, 236, 230);
+    padding: 22px 42px 34px 65px;
+    width: 70%;
+    border-left: 1.3px solid #3A4553;
     height: 100%;
+   
    
 }
 .explore__cuerpo{
@@ -392,6 +394,7 @@
     gap: 5px ; 
     grid-template:" tarjeta__uno tarjeta__dos   tarjeta__tres" 
                     " tarjeta__cuatro tarjeta__cinco  tarjeta__seis";
+    margin-top: 25px;
     
 }
 .tarjeta__uno{
@@ -399,14 +402,27 @@
     height: 245px;
     background-color:var(--fondo-color);
     width: 97%;
-    padding: 26px;
+    padding: 40px;
 }
 .tarjetas__imagenes{
     height: 55px;
     display: flex;
+    padding: 12px 5px;
+    justify-content: space-between;
     border-top: 1.4px solid #3A4553;
 }
-    
+.boton_lear{
+    padding: 14px;
+    background-color: var(--color-tarjetas);
+    border: none;
+    color: var(--blanco-color);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
 .explore__cuerpo p{
     font-family: Outfit;
     font-size: 16px;
@@ -418,9 +434,24 @@
 }
 .explore__Explo{
     color: var(--blanco-color);
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 114.6%;
+    margin-bottom: 15px;
 }
 .pasagees__pa{
+    padding-top: 25px;
     color: var(--blanco-color);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.span{
+    color: var(--color-letras);
 }
 .explore__cuerpo h3{
     color: var(--blanco-color);
@@ -430,21 +461,19 @@
     font-weight: 600;
     line-height: 114.6%; 
 }
-
-
 .tarjeta__dos{
     grid-area: tarjeta__dos;
     height: 245px;
     background-color:var(--fondo-color);
     width: 97%;
-    padding: 22px;
+    padding: 40px;
 }
 .tarjeta__tres{
     grid-area: tarjeta__tres;
     height: 245px;
     background-color:var(--fondo-color);
     width: 97%;
-    padding: 22px;
+    padding: 40px;
 }
 .tarjeta__cuatro{
     grid-area: tarjeta__cuatro;
@@ -458,19 +487,35 @@
     height: 245px;
     background-color:var(--fondo-color);
     width: 97%;
-    padding: 22px;
+    padding: 40px;
 }
 .tarjeta__seis{
     grid-area: tarjeta__seis;
     height: 245px;
     background-color:var(--fondo-color);
     width: 97%;
-    padding: 22px;
+    padding: 40px;
 }
 .trouble{
     margin: 124px;
     background-color:var(--blanco-color);
 }
+.rectangle{
+    position: absolute;
+   
+}
+.rip{
+    margin: 12px 5px;
+    color: var(--color-letras);
+}
+.linea{
+    position: relative;
+    margin-bottom: 22px;
+    
+    
+}
+
+
 /*aqui comienza el pie de pagina*/
 footer{
     background-color: var(--fondo-color);
