@@ -467,7 +467,10 @@
     width: 97%;
     padding: 22px;
 }
-
+.trouble{
+    margin: 124px;
+    background-color:var(--blanco-color);
+}
 /*aqui comienza el pie de pagina*/
 footer{
     background-color: var(--fondo-color);
