@@ -211,9 +211,10 @@ body{
     padding-top: 40px;
 }
 .informacion__experiance{
-    margin-top: 6%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 6%
 }
 .img_experience,.negocio{
     height: 35em;

@@ -91,8 +91,6 @@ body{
     color: var(--blanco-color);
     font-size: clamp(18px, 1vw, 3rem);
 }
-
-
 .header__menu {
     display: flex;
 }
@@ -219,8 +217,8 @@ body{
 }
 .offer__banner{
     border: 1px solid red;
-    width: 74%;
-    height: 57vh;
+    width: 70%;
+    height: 51vh;
     margin-top: 6%;
     background: #CCAA60;
     background-image: url("../imgpantalla2/Photo\ \(2\).png");
@@ -247,15 +245,12 @@ body{
     color:#1F2732;
 }
 .plan__for{
-    border: 1px solid yellow;
-    height: 95vh;
     margin-top: 5%;
 }
 .plan__titulo{
     text-align: center;
 }
 .planes{
-    border: 1px solid green;
     width: 60%;
     height: 70vh;
     display: flex;
@@ -265,13 +260,12 @@ body{
     margin-top: 4%;
 }
 .plan{
-    border: 1px solid rebeccapurple;
-    height: 68vh;
+    height: 50vh;
     width: 37%;
     display: flex; 
     flex-direction: column;
     align-items: center;
-    gap: 7px;
+    gap: 2%;
     background: var(--fondo-color);
     padding-top: 12px;
 
@@ -295,6 +289,10 @@ body{
     border: none;
     color: white;
 }
+.btn--color:hover{
+    background: var(--color-letras);
+    color: #1F2732;
+}
 .btn--bg{
     width: 82%;
     height: 60px;
@@ -310,4 +308,22 @@ body{
 }
 .btnn{
     margin-top: 6%;
+}
+.faq__simple{
+    background: #FFFFFF;
+    height: 80vh;
+    width:100% ;
+}
+.faq{
+    border: 3px solid greenyellow;
+    width:50%;
+    height: 40vh;
+    margin: auto;
+}
+.faq_titulo{
+    text-align: center;
+}
+.faq_informacion{
+    border: 1px solid magenta;
+    
 }
