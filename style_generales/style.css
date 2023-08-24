@@ -344,7 +344,6 @@
     margin: auto;
     width: 81px;
     background-color: var(--fondo-color);
-  
     border-radius: 6px;
     height: 70px;
 }
@@ -397,7 +396,7 @@
 }
 .tarjeta__uno{
     grid-area: tarjeta__uno;
-    height: 245px;
+    height: 295px;
     background-color:var(--fondo-color);
     width: 97%;
     padding: 40px;
@@ -405,9 +404,10 @@
 .tarjetas__imagenes{
     height: 55px;
     display: flex;
-    padding: 12px 5px;
+    padding: 16px 8px;
     justify-content: space-between;
-    border-top: 1.4px solid #3A4553;
+    border-top: 1.4px solid #ffffff;
+   
 }
 .boton_lear{
     padding: 14px;
@@ -461,68 +461,56 @@
 }
 .tarjeta__dos{
     grid-area: tarjeta__dos;
-    height: 245px;
+    height: 295px;
     background-color:var(--fondo-color);
     width: 97%;
     padding: 40px;
 }
 .tarjeta__tres{
     grid-area: tarjeta__tres;
-    height: 245px;
+    height: 295px;
     background-color:var(--fondo-color);
     width: 97%;
     padding: 40px;
 }
 .tarjeta__cuatro{
     grid-area: tarjeta__cuatro;
-    height: 245px;
+    height: 295px;
     background-color:var(--fondo-color);
     width: 97%;
-    padding: 22px;
+    padding: 40px;
 }
 .tarjeta__cinco{
     grid-area: tarjeta__cinco;
-    height: 245px;
+    height: 295px;
     background-color:var(--fondo-color);
     width: 97%;
     padding: 40px;
 }
 .tarjeta__seis{
     grid-area: tarjeta__seis;
-    height: 245px;
+    height: 295px;
     background-color:var(--fondo-color);
     width: 97%;
     padding: 40px;
 }
+
 .trouble{
     margin: 124px;
     background-color:var(--blanco-color);
 }
-.rectangle{
-    position: absolute;
-    margin:auto ;
+.recta{
+   width: 50px;
 }
-.rip{
-    font-size: 14px;
-    color: var(--color-letras);
-}
-.debajo{
-    display: block;
-    position: relative;
-    margin-top: 22px;
-   
-    
-}
-.linea{
-    
-    margin-bottom: 22px;
-    position: absolute;
-}
-.lineavein{
-   position: relative;
-   
+.imagenes_ima{
+    padding-top: 15px;
 }
 
+   
+
+
+
+    
 
 
 /*aqui comienza el pie de pagina*/
