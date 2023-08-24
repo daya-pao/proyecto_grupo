@@ -389,8 +389,8 @@
     display: grid;
     width: 100%;
     gap: 5px ; 
-    grid-template:" tarjeta__uno tarjeta__dos   tarjeta__tres" 
-                    " tarjeta__cuatro tarjeta__cinco  tarjeta__seis";
+    grid-template:" tarjeta__uno  tarjeta__dos    tarjeta__tres" 
+                    " tarjeta__cuatro  tarjeta__cinco   tarjeta__seis";
     margin-top: 25px;
     
 }
@@ -496,19 +496,177 @@
 }
 
 .trouble{
-    margin: 124px;
+    margin: auto;
+    margin-top: 45px;
+    width: 70%;
+    margin-bottom: 85px;
+    padding: 45px 0px;
     background-color:var(--blanco-color);
 }
 .recta{
    width: 50px;
 }
+.help__p{
+    margin: auto;
+    padding: 24px;
+    width: 55%;
+    text-align: center;
+}
+.p__you{
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.p__imagenes{
+    width: 55px;
+    height: 55px;
+    margin: auto;
+    margin-bottom: 45px;
+}
+.p__text{
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
 .imagenes_ima{
     padding-top: 15px;
 }
-
+.help__porcentajes{
+    display: flex;
+    margin: auto;
+    margin-top: 18px;
+    height:270px     ;
+    width: 95%;
+    border-bottom: 1px solid  #CBCBCB;
+    
+}
+.help__imagenes{
+    margin: auto;
+    width: 80%;
+    
+}
+.meet{
+    display: flex;
+    margin: auto;
+    margin-top: 86px;
+    width: 60%;
+    height: 85px;
+    
+}
+.mett__p{
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+}
+.mett_im{
+    margin: 10px;
+}
+.p__icon{
+    margin: 12px 0px;
+}
+.porcentajes__tres{
+    width: 50%;
+    margin: 12px;
+    height: 170px;
+}
+.uno__imagen{
+    width: 100%;
+    height: 100%;
+}
+.imagenes__imagenes{
+    display: flex;
+    width: 100%;
+    height: 110px;
+}
+.images-i{
+    width: 50%;
+    height: 100%;
+    margin: 15px;
+}
+.i__apartar{
+    margin: 15px 0px;
+}
    
+.encuestas{
+    background-image: url("../imagenes_G/img_homepages/fondo_photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1F27324A ;
+    height: 100vh;
+    display: flex;
+}
+.encuestas__porcentajes{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    height: 85%;
+    background-color: var(--fondo-color);
+    opacity: 80%;
+}
+.porcentajes__simbolo{
+    width: 55%;
+    height: 650px;
+    margin: 0px 5px;
+}
+.modi{
+    width: 30%;
+}
+.mujer{
+    width: 100%;
+    height: 100%;
+}
+.nueva{
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    width: 80%;
+    height: 60%;
+    padding: 4px 85px;
+}
+.porcentajes__simbolo h3{
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    color: var(--blanco-color);
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.porcentajes__simbolo p{
+    color:  #D7D7D7;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
 
+}
+.porcentajes__simbolo h5{
+    padding-top: 8px;
+    padding-bottom: 12px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-letras);
 
+}
+.bu_free{
+    padding: 25px;
+    background-color: var(--color-letras);
+    border: none;
+}
 
     
 
