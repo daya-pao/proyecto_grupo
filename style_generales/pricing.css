@@ -216,8 +216,8 @@ body{
     justify-content: center;
 }
 .offer__banner{
-    width: 70%;
-    height: 51vh;
+    width: 65%;
+    height: 48vh;
     margin-top: 6%;
     background: #CCAA60;
     background-image: url("../imgpantalla2/Photo\ \(2\).png");
@@ -227,6 +227,10 @@ body{
 .datos__text{
     margin-top: 8%;
     padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 .bg--border{
     width: 55px;
@@ -234,11 +238,13 @@ body{
     border-radius: 30px;
     background: #1F2732;
 }
+.imagen_fondo{
+    border: 1px solid red;
+   overflow: hidden;
+}
 .img-bg{
-    height: 335px;
-    width: 95%;
-    margin-top: -12%;
-
+    height: 100%;
+    width: 100%;
 }
 .color--blue{
     color:#1F2732;
@@ -358,7 +364,7 @@ body{
     background: #FFFFFF;
 }
 footer{
-    background-color: var(--fondo-color);
+    background-color: var(--gris-boton);
     max-width:86em;
     min-height:30em;
     text-align: center;
