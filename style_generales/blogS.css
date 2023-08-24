@@ -1,0 +1,152 @@
+:root{
+    --fondo-color:#1F2732;
+    --blanco-color:#FFFFFF;
+    --gris-boton:#2E3947;
+    --color-letras:#CCAA60;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: var(--fondo-color);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 15px 0px;
+    width: 80%;
+    height: 95px;
+    border-bottom: 1.3px solid var(--blanco-color);
+}
+.header__logo{
+    height: 100%;
+    width: 124px;
+    display: flex;
+    float: left;
+}
+.header__logo h1{
+   padding: 14px;
+   color: var(--blanco-color);
+}
+.header__consultas{
+    display:flex;
+    width: 310px; 
+}
+.header__consultas img{
+    padding: 16PX;
+}
+.header__consultas H3{
+    padding: 20px 0px;
+    color: var(--blanco-color);
+}
+.consultas__boton{
+    margin-left: 12px;
+    padding: 0px 12px;
+    text-align: center;
+    background-color: var(--gris-boton);
+    border: none;
+}
+.color--border{
+    width: 30px;
+    height: 70px;
+    border: 2px solid red;
+    border-radius: 70px;
+}
+.header__menu{
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
+    height: 110px;
+    border-bottom: 1.2px solid var(--blanco-color);
+}
+.contactos {
+    width: 420px;
+    height: 100%;
+    display: flex;
+    
+}
+.contactos__circu{
+    width: 50px;
+    margin: auto;
+    height: 55px; 
+}
+.Cir{
+    position:absolute;
+}
+.tele{
+   padding: 22px;
+}
+.contactos h5{
+    color: var(--blanco-color);
+}
+.telefono {
+    display: flex;
+    width: 170px;
+    height: 100%;
+}
+.telefono h4 {
+    color: var(--color-letras);
+    padding-top: 35px;
+}
+
+.correo {
+    display: flex;
+    margin-left: 18px;
+    width: 170px;
+    height: 100%;
+}
+.correo__circu{
+    width: 50px;
+    margin: auto;
+    height: 55px;
+}
+.Circu{
+    position:absolute;
+}
+.email{
+   padding: 22px;
+}
+.correo h4 {
+    color: var(--color-letras);
+    padding-top: 34px;
+    margin-left: 18px;
+    
+}
+.correo h5{
+    margin-left: 18px;
+    color: var(--blanco-color);
+}
+.menu__navegacion{
+    height: 100%;
+    display: flex;
+}
+.menu__navegacion ul{
+    display: flex;
+    margin: auto;
+    
+}
+.menu__navegacion a{
+    padding: 0px 22px ;
+    color: var(--blanco-color);
+    font-size: 18px;
+}
+.header__menu{
+    display: flex;
+}
+.img_fondo{
+    border: 1px solid rebeccapurple;
+    width: 74%;
+    margin: auto;
+    height: 70vh;
+    margin-top: 4%;
+}
+.bg-imagen{
+    height:70vh ;
+    width: 100%;
+    
+}

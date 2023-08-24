@@ -214,37 +214,18 @@ body{
 .pricing{
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 }
-.offer__banner{
-    width: 65%;
-    height: 48vh;
-    margin-top: 6%;
-    background: #CCAA60;
-    background-image: url("../imgpantalla2/Photo\ \(2\).png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .datos__text{
-    margin-top: 8%;
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  position: absolute;
+  padding: 8% 6%;
 }
 .bg--border{
     width: 55px;
     height: 55px;
     border-radius: 30px;
     background: #1F2732;
-}
-.imagen_fondo{
-    border: 1px solid red;
-   overflow: hidden;
-}
-.img-bg{
-    height: 100%;
-    width: 100%;
 }
 .color--blue{
     color:#1F2732;
