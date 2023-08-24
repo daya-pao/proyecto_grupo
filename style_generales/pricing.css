@@ -216,7 +216,6 @@ body{
     justify-content: center;
 }
 .offer__banner{
-    border: 1px solid red;
     width: 70%;
     height: 51vh;
     margin-top: 6%;
@@ -236,9 +235,9 @@ body{
     background: #1F2732;
 }
 .img-bg{
-    height: 376px;
-    width: 104%;
-    margin-top: -22.7%;
+    height: 335px;
+    width: 95%;
+    margin-top: -12%;
 
 }
 .color--blue{
@@ -311,19 +310,120 @@ body{
 }
 .faq__simple{
     background: #FFFFFF;
-    height: 80vh;
+    height: 163vh;
     width:100% ;
 }
 .faq{
-    border: 3px solid greenyellow;
-    width:50%;
-    height: 40vh;
+    width:65%;
+    height: 121vh;
     margin: auto;
 }
 .faq_titulo{
     text-align: center;
+    padding-top: 5%;
 }
 .faq_informacion{
-    border: 1px solid magenta;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 69%;
     
+}
+.informacion{
+    display: flex;
+    gap: 45px;
+    margin-top: 4%;
+}
+.linea_fap{
+    width: 99%;
+    height: 1px;
+    background: #2E3947;
+}
+.faq_consulta{
+
+    width: 40%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1F2732;
+}
+.bt-tamaño{
+    width: 50%;
+    background: #FFFFFF;
+}
+footer{
+    background-color: var(--fondo-color);
+    max-width:86em;
+    min-height:30em;
+    text-align: center;
+    margin: auto;
+}
+.section_logo{
+    padding: 15px;
+    max-width: 10%;
+    display: flex;
+}
+.footer_logo{
+    width: 95px;
+    height: 55px;
+    margin: 19px;
+    margin-left: -1em;
+}
+.icon-footer_derecho{
+  width: 19em;
+  margin: 28px;
+  margin-left: 10em;
+}
+.icon-footer_izquierdo{
+    width: 19em;
+    margin: 28px;
+    margin-left: 2em;
+}
+.titulo_footer{
+    font-size: 50px;
+    margin: 0px -29px;
+    color: #FFFFFF;
+}
+.section_servicios{
+    padding: 2%;
+    color: var(--blanco-color);
+    display: flex;
+    text-align: left;
+}
+.section_servicios-Quic ,.section_servicios-Utility,.section_servicios-Practice,.section_servicios-Conatct{
+    width: 35%;
+    height: 21em;
+    line-height: 2em;
+}
+.contenedor_Quic-botones{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor_Quic-botones-botones2{
+margin-right: 19%;
+}
+.Conatct-botones{
+ margin-bottom: 8%;
+}
+.golden{
+   color: var(--color-letras);
+}
+.img_footer{
+    width: 99%;
+}
+.h{
+    padding: 1%;
+}
+.final_footer{
+    width: 99%;
+    height: 15%;
+    padding:1%;
+    display: flex;
+    justify-content: space-between;
 }
