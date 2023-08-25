@@ -215,7 +215,7 @@ body{
 }
 .informacion__carAccident{
     background: #1F2732;
-    height: 363vh;
+    height: 334vh;
     width: 100%;
 }
 .imagen_car{
@@ -270,7 +270,7 @@ body{
 }
 .fondo__white{
     width: 84%;
-    height: 108vh;
+    height: 102vh;
     background: #FFFFFF;
     margin-left: 30px;
     display: flex;
@@ -333,7 +333,7 @@ body{
 }
 .texto__million{
     width: 84%;
-    height: 50vh;
+    height: 43vh;
     background: #CCAA60;
     margin-left: 30px;
 }
