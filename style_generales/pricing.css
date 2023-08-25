@@ -12,7 +12,7 @@
     list-style: none;
 }
 body{
-    background-color: var(--gris-boton);
+    background-color: var(--fondo-color);
 }
 .encabezado{
     background-image: url("../imgpantalla2/Photo.png");
@@ -234,6 +234,7 @@ body{
 }
 .plan__for{
     margin-top: 5%;
+    background: #2E3947;
 }
 .plan__titulo{
     text-align: center;
@@ -347,7 +348,7 @@ body{
     background: #FFFFFF;
 }
 footer{
-    background-color: var(--gris-boton);
+    background-color: var(--fondo-color);
     max-width:86em;
     min-height:30em;
     text-align: center;

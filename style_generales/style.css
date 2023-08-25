@@ -9,7 +9,9 @@
     --color-perfil:#161D27;
     --color-tarjetas:#161D27;
 }
-  
+body{
+    background: #161D27;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -505,20 +507,13 @@
 .imagenes_ima{
     padding-top: 15px;
 }
-
-   
-
-
-
-    
-
-
 /*aqui comienza el pie de pagina*/
 footer{
     background-color: var(--fondo-color);
     max-width:86em;
     min-height: 30em;
     text-align: center;
+    margin: auto;
 }
 .section_logo{
     padding: 15px;
