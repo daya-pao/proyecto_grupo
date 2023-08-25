@@ -19,7 +19,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--fondo-color);
-    height: 71vh;
+    height: 90vh;
 }
 .header {
     display: flex;
@@ -221,13 +221,14 @@ body{
     display: flex;
     align-items: center;
     gap: 4%;
+    margin-top: 5%;
 }
 .blog-informacion{
     
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 38%;
+    width: 55%;
     margin-top: 40px;
     
 }
@@ -241,6 +242,10 @@ body{
     background: #2E3947;
     margin: auto;
     margin-top: 2%;
+}
+.blog img{
+    width: 83%;
+    
 }
 .blog__galeria{
     display: flex;

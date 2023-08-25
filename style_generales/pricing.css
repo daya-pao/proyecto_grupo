@@ -216,7 +216,9 @@ body{
     justify-content: center;
     margin-top: 5%;
 }
-
+.img-banner{
+    width: 990px;
+}
 .datos__text{
   position: absolute;
   padding: 8% 6%;
@@ -246,12 +248,12 @@ body{
     margin-top: 4%;
 }
 .plan{
-    height: 50vh;
+    height: 64vh;
     width: 37%;
     display: flex; 
     flex-direction: column;
     align-items: center;
-    gap: 2%;
+    gap: 6px;
     background: var(--fondo-color);
     padding-top: 12px;
 

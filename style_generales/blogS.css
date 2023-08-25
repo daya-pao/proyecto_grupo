@@ -139,7 +139,6 @@ body{
     display: flex;
 }
 .img_fondo{
-    border: 1px solid rebeccapurple;
     width: 74%;
     margin: auto;
     height: 70vh;
@@ -148,5 +147,135 @@ body{
 .bg-imagen{
     height:70vh ;
     width: 100%;
-    
+}
+.fondo__informacion{
+    width: 52%;
+    margin: auto;
+    height: 138vh;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    gap:19px ;
+}
+.circle{
+    width: 7px;
+    height: 7px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.opciones{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.apartado{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.color--white{
+    color: #FFFFFF;
+}
+.color--orange{
+    color: #CCAA60;
+}
+.orange{
+    background: var(--color-letras);
+    height: 50vh;
+    padding: 39px 30px;
+    text-align: center;
+
+}
+.color--azul{
+    color: #2E3947;
+}
+.jhon{
+    height: 50vh;
+    display: flex;
+    background: #FFFFFF;
+    margin-top: 3%;
+}
+.img{
+    border-radius: 200px;
+}
+.perfil{
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.redes{
+    display: flex;
+    gap: 20px;
+}
+footer{
+    background-color: var(--fondo-color);
+    max-width:86em;
+    min-height:30em;
+    text-align: center;
+    margin: auto;
+}
+.section_logo{
+    padding: 15px;
+    max-width: 10%;
+    display: flex;
+}
+.footer_logo{
+    width: 95px;
+    height: 55px;
+    margin: 19px;
+    margin-left: -1em;
+}
+.icon-footer_derecho{
+  width: 19em;
+  margin: 28px;
+  margin-left: 10em;
+}
+.icon-footer_izquierdo{
+    width: 19em;
+    margin: 28px;
+    margin-left: 2em;
+}
+.titulo_footer{
+    font-size: 50px;
+    margin: 0px -29px;
+    color: #FFFFFF;
+}
+.section_servicios{
+    padding: 2%;
+    color: var(--blanco-color);
+    display: flex;
+    text-align: left;
+}
+.section_servicios-Quic ,.section_servicios-Utility,.section_servicios-Practice,.section_servicios-Conatct{
+    width: 35%;
+    height: 21em;
+    line-height: 2em;
+}
+.contenedor_Quic-botones{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor_Quic-botones-botones2{
+margin-right: 19%;
+}
+.Conatct-botones{
+ margin-bottom: 8%;
+}
+.golden{
+   color: var(--color-letras);
+}
+.img_footer{
+    width: 99%;
+}
+.h{
+    padding: 1%;
+}
+.final_footer{
+    width: 99%;
+    height: 15%;
+    padding:1%;
+    display: flex;
+    justify-content: space-between;
 }

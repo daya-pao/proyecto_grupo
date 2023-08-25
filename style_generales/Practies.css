@@ -19,7 +19,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--fondo-color);
-    height: 71vh;
+    height: 90vh;
 }
 .header {
     display: flex;
@@ -344,8 +344,8 @@ body{
     position: absolute;
 }
 .conctac_from{
-    width: 53%;
-    height: 50vh;
+    width: 67%;
+    height: 66vh;
     margin: auto;
     margin-top: 8%;
     background: #2E3947;
@@ -366,7 +366,7 @@ body{
     margin-top: 3%;
 }
 .btn-while{
-    height: 20%;
+    height: 50%;
     width: 25%;
     margin: auto;
     background: #161D27;
@@ -383,8 +383,7 @@ body{
     margin-top: 31px;
 }
 .largo{
-    width: 500px;
-    height: 1px;
+    width: 780px;
 }
 .informacion_clientes{
     width: 100%;

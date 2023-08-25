@@ -19,7 +19,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--fondo-color);
-    height: 71vh;
+    height: 90vh;
 }
 .header {
     display: flex;
@@ -160,16 +160,16 @@ body{
 }
 .imagen__fondo{
     border:1px solid #2E3947;
-    height: 171vh;
+    height: 243vh;
     background: var(--gris-boton);
 }
 .sigle__img{
-    width: 51%;
+    width: 63%;
     margin: auto;
     margin-top: 4%; 
 }
 .fondo{
-    width: 968px;
+    width: 843px;
     height: 630px;
 }
 .single_informacion{
