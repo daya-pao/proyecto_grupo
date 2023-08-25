@@ -13,10 +13,11 @@
 }
 
 .encabezado{
-    background-image: url("../imagenes_G/img_homepages/Photo.png");
+    background-image: url("imagenes_daniel/Photo_fondo.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--fondo-color);
+    height: 71vh;
 }
 
 .header {
@@ -66,7 +67,6 @@
     padding: 20px 0px;
     color: var(--blanco-color);
 }
-
 .consultas__boton {
     margin-left: 12px;
     padding: 0px 12px;
@@ -75,7 +75,6 @@
     border: none;
     color: var(--blanco-color);
 }
-
 .header__menu {
     margin: auto;
     justify-content: space-between;
@@ -83,29 +82,23 @@
     height: 110px;
     border-bottom: 1.2px solid var(--blanco-color);
 }
-
 .menu__navegacion {
     height: 100%;
     display: flex;
 }
-
 .menu__navegacion ul {
     display: flex;
     margin: auto;
 
 }
-
 .menu_link {
     padding: 0px 22px;
     color: var(--blanco-color);
     font-size: clamp(18px, 1vw, 3rem);
 }
-
-
 .header__menu {
     display: flex;
 }
-
 .contactos {
     width: 420px;
     height: 100%;
@@ -116,8 +109,6 @@
     width: 50px;
     margin: auto;
     height: 55px;
-    
-    
 }
 .Cir{
     position:absolute;
@@ -128,7 +119,6 @@
 .contactos h5{
     color: var(--blanco-color);
 }
-
 .telefono {
     display: flex;
     width: 170px;
@@ -138,7 +128,6 @@
     color: var(--color-letras);
     padding-top: 35px;
 }
-
 .correo {
     display: flex;
     margin-left: 18px;
@@ -156,7 +145,6 @@
 .email{
    padding: 22px;
 }
-
 .correo h4 {
     color: var(--color-letras);
     padding-top: 34px;
@@ -180,7 +168,6 @@
    position: relative;
     width: 70%;
 }
-
 .text__titulo{
     font-size: 38px;
     color: var(--blanco-color);
@@ -216,13 +203,193 @@
     height: 340px;
     background-color: #FFFFFF;
 }
+/*aqui comienza la pagina testimonio*/
+.textos{
+    margin-left: 37%;
+    width: 20%;
+    height: 30%;
+    text-align: center;
+}
+.text__titulo{
+    margin: 15%;
+}
+.text_imag{
+    margin: 4%;
+    margin-left: 28%;
+}
+.personal{
+    max-width: 85em;
+    height: 70em;   
+    background-color: var(--fondo-color);
+    display:grid;
+}
+.personal_trabajadores{
+    margin-left: 22%;
+    width:50em;
+    height: 650px;
+    display:grid;
+    grid-template-columns:auto auto ;
+    padding:3%;
+    gap: 10px;
+}
+.personal_trabajo-trabajadores{
+    width: 350px;
+    height: 165px;
+    background-color: #2E3947;
+}
+.datos_usin{
+    display: flex;
+    width: 99%;
+}
+.f_perfil{
+    margin-top: 5%;
+    margin-left:9% ;
+    width:50px;
+    height: 49px;
+}
+.name_m ,.coma{
+    width: 65px;
+    margin-top: 23px;
+    margin-left: 16px;
+}
+.coma{
+    width: 33px;
+    height: 33px;
+    margin-left: 120px;
+   background-color: #2E3947;
+}
+.parafo_user{
+    width:89% ;
+    height: 10%;
+    padding-top: 4%;
+    margin-left: 32px;
+    color: var(--blanco-color);
+}
+
+.informacion__conctac{
+    height: 80vh;
+    background-color:var(--fondo-color);
+    width: 100%;
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+.conctac{
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    gap: 11%;
+    width:33%;
+}
+.informacion_consulta{
+    border:  1px solid black;
+    background: #FFFFFF;
+    width: 40%;
+    height: 82%;
+}
+.caja--border{
+    border: 10px solid #DFDFDF;;
+    width: 90%;
+    height: 84%;
+    margin: auto;
+    margin-top: 30px;
+}
+.centrado{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    padding-top: 38px;
+    width: 95%;
+    margin: auto;
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+.espacio{
+    padding-left: 20px;
+}
+.tex-color{
+    color: #909090;
+}
+.btn--bg{
+    width: 44%;
+    height: 20%;
+    background: #161D27;
+    color:white;
+    border: none;
+    font-size: 20px;
+}
+.btn--bg:hover{
+    background: #CCAA60;
+    color: #1F2732;
+}
+.formulario_conctac{
+    background-image: url("../imgpantalla2/Photo_fonfo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+} 
+.formulario{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    color: var(--blanco-color);
+}
+.conctac_from{
+    width: 70%;
+    height: 68vh;
+    margin: auto;
+    margin-top: 8%;
+    background: #2E3947;
+    padding: 60px 60px 60px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.datos__full{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.datos__phone{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 3%;
+}
+.btn-while{
+    height: 20%;
+    width: 25%;
+    margin: auto;
+    background: #161D27;
+    border: none;
+    font-size: 16px;
+}
+.btn-while:hover{
+    background:white;
+}
+.linea{
+    width: 370px;
+    height: 1px;
+    background: #909090;
+    margin-top: 31px;
+}
+.largo{
+    width: 500px;
+    height: 1px;
+}
 
 /*aqui comienza el pie de pagina*/
-footer{
-    background-color: var(--fondo-color);
+ 
+.footer{
+    background-color:var(--fondo-color);
     max-width:86em;
     min-height: 30em;
     text-align: center;
+    margin-top: 50%;
 }
 .section_logo{
     padding: 15px;
