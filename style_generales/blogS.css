@@ -1,10 +1,10 @@
-:root {
-    --fondo-color: #1F2732;
-    --blanco-color: #FFFFFF;
-    --gris-boton: #2E3947;
-    --color-letras: #CCAA60;
+:root{
+    --fondo-color:#1F2732;
+    --blanco-color:#FFFFFF;
+    --gris-boton:#2E3947;
+    --color-letras:#CCAA60;
 }
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -14,14 +14,7 @@
 body{
     background-color: var(--fondo-color);
 }
-.encabezado{
-    background-image: url("../imgpantalla2/Photo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: var(--fondo-color);
-    height: 90vh;
-}
-.header {
+.header{
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -30,77 +23,47 @@ body{
     height: 95px;
     border-bottom: 1.3px solid var(--blanco-color);
 }
-.flecha{
-    margin-left: -10px;
-}
-.header__logo {
+.header__logo{
     height: 100%;
     width: 124px;
     display: flex;
     float: left;
 }
-.header__logo h1 ,.titulo_footer{
+.header__logo h1{
    padding: 14px;
    color: var(--blanco-color);
 }
-
-.header__consultas {
-    display: flex;
-    width: 310px;
+.header__consultas{
+    display:flex;
+    width: 310px; 
 }
-.header__titulo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10%;
+.header__consultas img{
+    padding: 16PX;
 }
-.header__consultas img {
-    padding: 15px;
-}
-
-.imagen {
-    position: absolute;
-}
-.circulo {
-    position: relative;
-}
-.header__consultas H3 {
+.header__consultas H3{
     padding: 20px 0px;
     color: var(--blanco-color);
 }
-.consultas__boton {
+.consultas__boton{
     margin-left: 12px;
     padding: 0px 12px;
     text-align: center;
     background-color: var(--gris-boton);
     border: none;
-    color: var(--blanco-color);
 }
-.header__menu {
+.color--border{
+    width: 30px;
+    height: 70px;
+    border: 2px solid red;
+    border-radius: 70px;
+}
+.header__menu{
     margin: auto;
     justify-content: space-between;
     width: 80%;
     height: 110px;
     border-bottom: 1.2px solid var(--blanco-color);
 }
-.menu__navegacion {
-    height: 100%;
-    display: flex;
-}
-.menu__navegacion ul {
-    display: flex;
-    margin: auto;
-}
-.menu_link {
-    padding: 0px 22px;
-    color: var(--blanco-color);
-    font-size: clamp(18px, 1vw, 3rem);
-}
-.header__menu {
-    display: flex;
-}
-
 .contactos {
     width: 420px;
     height: 100%;
@@ -158,52 +121,98 @@ body{
     margin-left: 18px;
     color: var(--blanco-color);
 }
-.imagen__fondo{
-    border:1px solid #2E3947;
-    height: 243vh;
-    background: var(--gris-boton);
+.menu__navegacion{
+    height: 100%;
+    display: flex;
 }
-.sigle__img{
-    width: 63%;
+.menu__navegacion ul{
+    display: flex;
     margin: auto;
-    margin-top: 4%; 
+    
 }
-.fondo{
-    width: 843px;
-    height: 630px;
+.menu__navegacion a{
+    padding: 0px 22px ;
+    color: var(--blanco-color);
+    font-size: 18px;
 }
-.single_informacion{
+.header__menu{
+    display: flex;
+}
+.img_fondo{
+    width: 74%;
+    margin: auto;
+    height: 70vh;
+    margin-top: 4%;
+}
+.bg-imagen{
+    height:70vh ;
+    width: 100%;
+}
+.fondo__informacion{
+    width: 52%;
+    margin: auto;
+    height: 138vh;
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 17px;
-    margin: auto;
-    width: 51%;
-    margin-top: 4%px;
+    gap:19px ;
 }
 .circle{
-    width: 5px;
-    height: 5px;
+    width: 7px;
+    height: 7px;
     background: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .opciones{
     display: flex;
-    align-items: center;
-    gap: 9px;
+    flex-direction: column;
+    gap: 10px;
 }
-.line-barra{
-    width: 90%;
-    height: 1px;
-    background: gray;
+.apartado{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .color--white{
     color: #FFFFFF;
 }
+.color--orange{
+    color: #CCAA60;
+}
+.orange{
+    background: var(--color-letras);
+    height: 50vh;
+    padding: 39px 30px;
+    text-align: center;
+
+}
+.color--azul{
+    color: #2E3947;
+}
+.jhon{
+    height: 50vh;
+    display: flex;
+    background: #FFFFFF;
+    margin-top: 3%;
+}
+.img{
+    border-radius: 200px;
+}
+.perfil{
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.redes{
+    display: flex;
+    gap: 20px;
+}
 footer{
     background-color: var(--fondo-color);
     max-width:86em;
-    min-height: 30em;
+    min-height:30em;
     text-align: center;
     margin: auto;
 }
